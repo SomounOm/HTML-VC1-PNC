@@ -234,16 +234,12 @@ footer:hover{
     height:100vh;
     background-color:#c1f5f7;
     
-
 }
 .h{
     width: 50%;
     height:100vh;
     background-color:#fdd098;
-
-    
-
-   
+ 
 }  
 
 html, body {
@@ -315,5 +311,7 @@ option {
 .animate__animated.animate__bounceInLeft {
     --animate-duration: 2s;
 }
+
+/*  */
 
 
