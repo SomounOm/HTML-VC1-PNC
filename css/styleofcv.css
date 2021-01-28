@@ -23,15 +23,15 @@ body{
 }
 a{
         margin-left: 30px;
-        padding: 5px;
+        padding: 10px;
         text-decoration: none;
         font-family:sans-serif ;
-        color:rgb(241, 3, 170);
+        color:rgb(212, 37, 166);
 
     
 }
 a:hover{
-        background:blueviolet;
+        background:rgb(7, 6, 7);
 }
 .logo{
     width: 32vh;
@@ -43,12 +43,16 @@ a:hover{
 .logo:hover{
     box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);    
 }
+.animate__animated.animate__bounceInLeft {
+    --animate-duration: 2s;
+  }
 h5{
     font-family: 'Abril Fatface', serif;
     text-align: center;
-    color:rgba(187, 16, 16, 0.712);
+    color:#fff;
     font-size:40px;
-    padding-top:10x;
+    margin-bottom:100px ;
+    margin-left:30%;
     margin-top:0;
 }
 
@@ -69,6 +73,8 @@ h5{
     height:50vh;
     margin-left:10px;
     margin-right:10px;
+    line-height: 1.5;
+
     
 }
 .education:hover{
@@ -82,6 +88,8 @@ h5{
     background: rgb(148, 146, 146);
     margin-left:10px;
     margin-right:10px;
+    line-height: 1.5;
+    font-family: sans-serif;
     
 }
 .story:hover{
@@ -93,6 +101,7 @@ h3{
     font-size: 20px;
     text-align: center;
     color: royalblue;
+    margin-left: 40%;
 
 }
 
@@ -111,6 +120,8 @@ h3{
     margin-left:10px;
     margin-right:10px;
     margin-bottom:10px;
+    line-height: 1.5;
+    font-family:sans-serif;
     
 }
 .hobby:hover{
@@ -125,6 +136,8 @@ h3{
     margin-left:10px;
     margin-right:10px;
     margin-bottom:10px;
+    line-height: 1.5;
+    font-family: sans-serif;
 }
 .re:hover{
     background: rgb(141, 223, 178);

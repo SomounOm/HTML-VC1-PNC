@@ -8,13 +8,15 @@ home
 .a{
     background-image: url("../image/f.jpg");
     width: 100%;
-    height: 260px;
-    
+    height: 260px; 
+    background-size: cover; 
+    margin-top:-30px;  
 }
 .nav{
     padding:10px;
     font-size:20px ;
     text-align:right;
+    margin-top:-50px;
 }
 
 .nav a {
@@ -22,23 +24,23 @@ home
     padding: 10px;
     text-decoration: none;
     font-family:sans-serif ;
-    color:rgb(236, 16, 152);
+    color:rgb(15, 15, 15);
+    
 
 }
 .nav a:hover{
-    background:blueviolet;
+    background:rgb(188, 127, 250);
 }
 .logo{
     width: 32vh;
     height: 32vh;
     margin-top:10px;
-    margin-left: 3%;
+    margin-left:10px;
     border-radius: 100%;
 }  
 .logo:hover{
     box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);    
 } 
-
 /*  */
 
   .b{
@@ -61,36 +63,42 @@ home
 
 
 .d{
-    background: #fff0b3;
+    background:#c7fac7;
     height: auto;
     width: 59%;
     margin-top:30px;
     margin-bottom:12px ;
     margin-right:10px;
+    line-height:1.5;
 }
 .d:hover{
-    background: #ccffcc;
+    background:#c5fcc5 ;
     cursor: pointer;
     color: black;
 }
 .d p{
-
+    color: #010102;
     padding:10px;
     margin-left: 5px;
     font-size: 20px;
 }
 .d h4{
-    text-align: center;
+    color:blue;
+    margin-left:40%;
     font-size: 25px;
-} 
-.e{
-    text-align: center;
-    background-color: rgba(33, 33, 250, 0.863);
-    margin-left: 40%;
+}
+
+.tool button{
+    background-color: rgba(144, 144, 252, 0.863);
+    text-decoration: none;
     padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-} 
+    border-radius: 15px;
+    border: none;
+    margin-left: 30px;
+}
+.tool a {
+    text-decoration: none;
+}
 
 /*  */
 footer{
@@ -104,6 +112,9 @@ footer{
     font-size: 30px;
     margin: 5px 2px;
     
+}
+footer:hover{
+    background-color: #ffd199;
 }
 
 .app{
@@ -206,33 +217,31 @@ footer{
 
 /* contact */
 
-  .i{
+.i{
     width: 100%;
     height: auto;
-    background:#db8011;
-    margin:10px;
-    padding: 0;
+    background:#db8011;   
 
 }
 .f{
     width:100%;
     height:100vh;
     display: flex;
-    margin:10px;
     
 }
 .g{
     width: 50%;
     height:100vh;
-    background-color:#352923;
-    margin:10px;
+    background-color:#c1f5f7;
+    
 
 }
 .h{
     width: 50%;
     height:100vh;
     background-color:#fdd098;
-    margin:10px
+
+    
 
    
 }  
@@ -302,6 +311,9 @@ input[type=submit]:hover {
 option {
     background: black; 
     border: none;
+}
+.animate__animated.animate__bounceInLeft {
+    --animate-duration: 2s;
 }
 
 
