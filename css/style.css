@@ -24,26 +24,28 @@ home
     padding: 10px;
     text-decoration: none;
     font-family:sans-serif ;
-    color:rgb(15, 15, 15);
+    color:rgb(10, 10, 10);
     
 
 }
 .nav a:hover{
-    background:rgb(188, 127, 250);
+    background:rgb(205, 156, 253);
+    color:crimson
 }
 .logo{
     width: 32vh;
     height: 32vh;
-    margin-top:10px;
+    margin-top:35px;
     margin-left:10px;
     border-radius: 100%;
+
 }  
 .logo:hover{
-    box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);    
+    box-shadow: 0 0 15px 10px rgba(248, 205, 10, 0.5);    
 } 
 /*  */
 
-  .b{
+.b{
     display: flex;
     height: auto;
     width: auto;
@@ -63,7 +65,7 @@ home
 
 
 .d{
-    background:#c7fac7;
+    background:#ffe1bb;
     height: auto;
     width: 59%;
     margin-top:30px;
@@ -72,7 +74,7 @@ home
     line-height:1.5;
 }
 .d:hover{
-    background:#c5fcc5 ;
+    background:#fddbaf ;
     cursor: pointer;
     color: black;
 }
@@ -81,6 +83,7 @@ home
     padding:10px;
     margin-left: 5px;
     font-size: 20px;
+    font-family: sans-serif;
 }
 .d h4{
     color:blue;
@@ -102,7 +105,7 @@ home
 
 /*  */
 footer{
-    background: #0a0a0a;
+    background: #2e2b2b;
     width: 100%;
     height: 20vh;
     text-align: center;
@@ -114,7 +117,7 @@ footer{
     
 }
 footer:hover{
-    background-color: #ffd199;
+    background-color: #fddaaf;
 }
 
 .app{
@@ -122,6 +125,7 @@ footer:hover{
     margin-top: 20px;
     margin-bottom:20px ;
     display: flex;
+    box-sizing: border-box;
     }
     
     .fa-skype {
@@ -192,11 +196,11 @@ footer:hover{
 }
 .box > div {
     width: 50%;
-    height: 400px;
-    margin-top: 100px;
+    height: auto;
+    margin-top: 50px;
     margin-right:50px;
     margin-left:50px;
-    background-color: rgb(128, 140, 146);  
+    /* background-color: rgb(128, 140, 146);   */
 }
 
 .cu h4{
@@ -208,6 +212,8 @@ footer:hover{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-left:25px;
     color:#FFF;
+    line-height: 1.5;
+    font-family: sans-serif;
 }
 
 .cu:hover{
@@ -220,8 +226,7 @@ footer:hover{
 .i{
     width: 100%;
     height: auto;
-    background:#db8011;   
-
+     
 }
 .f{
     width:100%;
@@ -238,7 +243,7 @@ footer:hover{
 .h{
     width: 50%;
     height:100vh;
-    background-color:#fdd098;
+    
  
 }  
 
@@ -315,3 +320,188 @@ option {
 /*  */
 
 
+/* cv */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-image: url("../image/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    
+/*  */
+.animate__animated.animate__bounceInLeft {
+    --animate-duration: 2s;
+  }
+h5{
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    color:rgb(10, 9, 9);
+    font-size:40px;
+    margin-bottom:100px ;
+    margin-left:30%;
+    margin-top:0;
+}
+
+/*  */
+.all{
+    width:100%;
+    height:auto;
+    background: none;
+}
+.cv1{
+    width:100%;
+    height: 50vh;
+    display: flex;
+}
+.education{
+    background:rgb(120, 120, 120);
+    width: 50%;
+    height:50vh;
+    margin-left:10px;
+    margin-right:10px;
+    line-height: 1.5;
+    padding-left:15px;
+
+    
+}
+.education:hover{
+    background: rgb(157, 240, 194);
+    cursor: pointer;
+    color: black;
+}
+.story{
+    width: 50%;
+    height:50vh;
+    background: rgb(148, 146, 146);
+    margin-left:10px;
+    margin-right:10px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    padding-left:15px;
+    
+}
+.story:hover{
+    background: rgb(164, 240, 198);
+    cursor: pointer;
+    color: black;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: royalblue;
+    margin-left: 40%;
+
+}
+
+/*  */
+
+.cv2{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    margin-top:10px;
+}
+.hobby{
+    background: rgb(146, 142, 142);
+    width: 50%;
+    height:50vh;
+    padding-left:15px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    line-height: 1.5;
+    font-family:sans-serif;
+    
+}
+.hobby:hover{
+    background: rgb(166, 241, 200);
+    cursor: pointer;
+    color: rgb(92, 32, 92);
+}
+.re{
+    background: rgb(155, 150, 150);
+    width: 50%;
+    height:50vh;
+    padding-left:15px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.re:hover{
+    background: rgb(172, 241, 203);
+    cursor: pointer;
+    color: black;
+}
+.re p{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px ) {
+    .a{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin: 8px 0;
+
+    }
+    
+        .b{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            
+        }
+        
+   
+    .box {
+       
+        flex-direction: column;
+
+    }
+    
+    
+        
+        
+}
+
+@media screen and (max-width: 500px ) {
+    .a{
+        height: 100%;
+        width: 100%;
+        display: block;
+        
+
+    }
+    .b{
+        height: 100%;
+        width: 100%;
+        display: block;
+        
+
+    }
+    
+    .box > div {
+        height: 100%;
+        width: 100%;
+        display: block;
+
+    }
+    
+    
+       
+    
+}
